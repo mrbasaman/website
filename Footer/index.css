@@ -1,0 +1,19 @@
+.footer {
+    text-align: center;
+    margin-top: 25px;
+    border-top: 1px solid gray;
+}
+
+.footer-icon {
+    color: #84a0d6;
+    position: relative;
+    height: 60px;
+    width: 45px;
+}
+
+.footerlist {
+    list-style: none;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}

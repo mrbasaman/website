@@ -1,0 +1,45 @@
+.section-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.section-one h1 {
+    color: rgb(0, 140, 255);
+    margin-right: 25px;
+    margin-top: auto;
+    font-size: 26px;
+}
+
+.section-one h2 {
+    font-size: 65px;
+    margin: auto;
+}
+
+.section-one button {
+    box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+    background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+    background-color: #79bbff;
+    border-radius: 4px;
+    border: 1px solid #84bbf3;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 9px 18px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #528ecc;
+}
+
+.section-one button:hover {
+    background: linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+    background-color: #378de5;
+}
+
+.section-one button:active {
+    position: relative;
+    top: 1px;
+}

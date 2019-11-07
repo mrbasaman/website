@@ -1,0 +1,295 @@
+.main-home {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-two {
+    background-position: center;
+    background-image: url(/images/photo-1558944351-3f79926e74ef.jpeg);
+    display: flex;
+    font-size: 35px;
+    background-repeat: no-repeat;
+    padding: 5em 0 5em 0;
+    background-size: cover;
+}
+
+.s2-cont {
+    background: rgb(55, 141, 229, 0.5);
+    flex: 2;
+    padding-right: 3em;
+}
+
+.s2-cont h2 {
+    font-size: 65px;
+    text-align: center;
+    color: antiquewhite;
+    padding-top: 60px;
+}
+
+.s2-cont2 {
+    flex: 1;
+    color: antiquewhite;
+    text-align: center;
+    margin: 0 20px 50px 20px;
+    text-shadow: 1.5px 2px 0px darkslategrey;
+}
+
+.section-two button {
+    box-shadow: inset 0px 1px 0px 0px antiquewhite;
+    background: linear-gradient(to bottom, #fdbe2d 5%, #c35922 100%);
+
+    border-radius: 4px;
+    border: 1px solid antiquewhite;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 12px 18px;
+    text-decoration: none;
+    text-shadow: 2px 1px 2px grey;
+}
+
+.section-two button:hover {
+    background: linear-gradient(to bottom, #c35922 5%, #fdbe2d 100%);
+    background-color: #378de5;
+}
+
+.section-two button:active {
+    position: relative;
+    top: 1px;
+}
+
+.section-three {
+    /*
+    display: flex;
+    
+    justify-content: center;
+    */
+    padding: 6em 10px;
+    overflow: auto;
+}
+
+.s3-cont {
+    /*flex: 3;*/
+
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    float: left;
+    width: 50%;
+}
+
+.s3-cont p {
+    margin: 0;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    font-size: large;
+}
+
+.s3-cont2 {
+    /*flex: 1;*/
+    float: right;
+    width: 40%;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+.s3-cont2 button {
+    width: 100%;
+    padding: 17px;
+    font-size: 16px;
+    background-color: #528ecc;
+    color: white;
+    border-radius: 7px;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: inherit;
+}
+
+.section-three button {
+    box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+    background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+    background-color: #79bbff;
+    border-radius: 4px;
+    border: 1px solid #84bbf3;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 12px 18px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #528ecc;
+    padding: 23px;
+    font-size: 26px;
+}
+
+.section-three button:hover {
+    background: linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+    background-color: #378de5;
+}
+
+.section-three button:active {
+    position: relative;
+    top: 1px;
+}
+
+.section-four h2 {}
+
+.section-four {
+    color: antiquewhite;
+    text-shadow: 2px 0px 9px rgba(250, 235, 215, 0.69);
+    background-color: hsl(36, 100%, 90%);
+    background-image: url(https://images.unsplash.com/photo-1512552288940-3a300922a275?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.wrap {
+    background-color: rgba(33, 33, 33, 0.7);
+    padding: 7em 0 7em 0;
+}
+
+.section-four ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-four li {
+    padding: 2em 6em 0 6em;
+}
+
+.section-four ul figcaption {
+    font-size: 20px;
+}
+
+.s4-cont p {
+    text-align: center;
+    padding: 50px 0 50px 0;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-weight: bold;
+    margin: 0 5em 0 5em;
+}
+
+.book-button {
+    text-align: center;
+}
+
+.book-button button {
+    box-shadow: inset 0px 1px 0px 0px #bbdaf7;
+    background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+    background-color: #79bbff;
+    border-radius: 6px;
+    border: 1px solid #84bbf3;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 9px 18px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #528ecc;
+}
+
+.book-button button:hover {
+    background: linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+    background-color: #378de5;
+}
+
+.book-button button:active {
+    position: relative;
+    top: 1px;
+}
+
+.section-five {
+    background-image: url(https://images.unsplash.com/photo-1529641484336-ef35148bab06?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: azure;
+}
+
+.s5-cont {
+    display: flex;
+    background-color: rgba(36, 33, 33, 0.15);
+    padding: 7em 0 7em 0;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #269bc9,
+        0 0 30px #269bc9, 0 0 40px #269bc9, 0 0 55px #269bc9, 0 0 75px #269bc9;
+}
+
+.s5-cont ul {
+    text-align: center;
+    line-height: 3;
+    font-size: 23px;
+    margin: auto;
+    border-right: 1px solid white;
+    padding-right: 30px;
+}
+
+.s5-cont h2 {
+    margin-left: 0;
+    font-weight: normal;
+}
+
+.s5-cont ul li:before {
+    content: "✓";
+}
+
+.section-six {
+    display: flex;
+    margin-top: auto;
+    padding: 8em;
+}
+
+.feedback img {
+    width: 105px;
+    border-radius: 100px;
+    position: absolute;
+}
+
+.feedback-cont {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 7em;
+}
+
+.feedback-cont {
+    margin-right: 40px;
+}
+
+.feedback {
+    width: 50%;
+}
+
+.feedback h3 {
+    font-size: 30px;
+    margin-bottom: auto;
+    margin-top: 20px;
+}
+
+.six-p1 {
+    display: flex;
+    margin-left: 30px;
+    padding: 8em 8em 1em 8em;
+    text-align: justify;
+    letter-spacing: 0.8px;
+}
+
+.six-p2 {
+    display: flex;
+    margin-left: 30px;
+    padding: 2em 8em 2em 8em;
+    text-align: justify;
+    letter-spacing: 0.8px;
+}
